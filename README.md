@@ -1,4 +1,4 @@
-# Will Jones App
+# Will Jones iOS App
 **Version:** 1.0 <br />
 **Published Date:** 02/28/2020
 
