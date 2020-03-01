@@ -8,6 +8,14 @@
 
 import SwiftUI
 
+/*
+ *Class that creates a button image with a clickable url
+ *takes in 4 variables
+ @image - the image being used
+ @url - the url, in string format, being used
+ @width - the width of the image
+ @height - the height of the image
+ */
 struct ButtonImage: View {
     var image: Image
     var url: String

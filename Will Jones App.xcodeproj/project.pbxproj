@@ -38,7 +38,7 @@
 		437025A923F1017200991558 /* ExperienceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ExperienceView.swift; sourceTree = "<group>"; usesTabs = 0; };
 		437025AB23F1018500991558 /* LeadershipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadershipView.swift; sourceTree = "<group>"; };
 		437025AD23F1019F00991558 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
-		439DB0A22409F8D2006903D1 /* AppInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppInfoView.swift; path = "Will Jones App/Models/AppInfoView.swift"; sourceTree = "<group>"; };
+		439DB0A22409F8D2006903D1 /* AppInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoView.swift; sourceTree = "<group>"; };
 		43C69403240C3E4A0014A248 /* ButtonImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,7 +56,6 @@
 		4370257623F0F00C00991558 = {
 			isa = PBXGroup;
 			children = (
-				439DB0A22409F8D2006903D1 /* AppInfoView.swift */,
 				4370258123F0F00C00991558 /* Will Jones App */,
 				4370258023F0F00C00991558 /* Products */,
 			);
@@ -96,6 +95,7 @@
 		437025A223F0FED700991558 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				439DB0A22409F8D2006903D1 /* AppInfoView.swift */,
 				437025A423F1010D00991558 /* AboutView.swift */,
 				437025A523F1010D00991558 /* CircleImage.swift */,
 				437025A323F1010D00991558 /* EducationView.swift */,

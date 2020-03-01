@@ -25,21 +25,8 @@ struct AppInfoView: View {
                     .font(.headline)
                     .fontWeight(.bold)
             }.offset(y:-150)
-            Button(action: {
-            //opens up safari with the Dark Assassins Inc page
-            //sets the url to acxiom then opens the safari application
-            //with acxioms page
-            if let url = URL(string: "https://www.darkassassinsinc.com")
-            {
-                UIApplication.shared.open(url)
-            }
-
-            }){
-            Image("DAIlogo2")
-                .renderingMode(.original) //makes image render correctly
-                .resizable()
-                .frame(width: 350, height: 250)
-            }
+            ButtonImage(image: Image("DAIlogo2"), url: "https://www.darkassassinsinc.com", width: 350, height: 250)
+            
             Text("Version 1.0")
                 .font(.headline)
                 .fontWeight(.bold)
