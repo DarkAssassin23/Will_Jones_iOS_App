@@ -47,21 +47,7 @@ struct LeadershipView: View {
                         }.padding(6)
                     }
                     Spacer()
-                    Button(action: {
-                    //opens up safari with BSA page
-                    //sets the url to acxiom then opens the safari application
-                    //with acxioms page
-                    if let url = URL(string: "https://www.scouting.org")
-                    {
-                        UIApplication.shared.open(url)
-                    }
-
-                    }){
-                    Image("bsa")
-                        .renderingMode(.original) //makes image render correctly
-                        .resizable()
-                        .frame(width: 150, height: 150)
-                    }
+                    ButtonImage(image:  Image("bsa"), url: "https://www.scouting.org", width: 150, height: 150)
                 }
             }.padding(5)
             Spacer()
@@ -96,21 +82,8 @@ struct LeadershipView: View {
                         }.padding(6)
                     }
                     Spacer()
-                    Button(action: {
-                    //opens up safari with the OA's page
-                    //sets the url to acxiom then opens the safari application
-                    //with acxioms page
-                    if let url = URL(string: "https://www.oa-bsa.org")
-                    {
-                        UIApplication.shared.open(url)
-                    }
+                    ButtonImage(image: Image("oa"), url: "https://www.oa-bsa.org", width: 150, height: 150)
 
-                    }){
-                    Image("oa")
-                        .renderingMode(.original) //makes image render correctly
-                        .resizable()
-                        .frame(width: 150, height: 150)
-                    }
                 }.padding(5)
                     .offset(y:-200)
             }

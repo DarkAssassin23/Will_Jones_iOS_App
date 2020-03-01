@@ -19,71 +19,18 @@ struct ContactView: View {
             .offset(y:-80)
             HStack
             {
-                Button(action: {
-                //opens up safari with linkedin page
-                //sets the url to acxiom then opens the safari application
-                //with acxioms page
-                if let url = URL(string: "https://www.linkedin.com/in/will-j-64b747b5?trk=org-employees_mini-profile_cta")
-                {
-                    UIApplication.shared.open(url)
-                }
+                ButtonImage(image: Image("linkedin"), url: "https://www.linkedin.com/in/will-j-64b747b5?trk=org-employees_mini-profile_cta", width: 150, height: 150)
+                    .padding()
 
-                }){
-                Image("linkedin")
-                    .renderingMode(.original) //makes image render correctly
-                    .resizable()
-                    .frame(width: 150, height: 150)
-                }.padding()
-
-                Button(action: {
-                   //opens up safari with github page
-                   //sets the url to acxiom then opens the safari application
-                   //with acxioms page
-                   if let url = URL(string: "https://www.github.com/DarkAssassin23")
-                   {
-                       UIApplication.shared.open(url)
-                   }
-
-                   }){
-                   Image("github")
-                       .renderingMode(.original) //makes image render correctly
-                       .resizable()
-                       .frame(width: 150, height: 150)
-                }.padding()
+                ButtonImage(image: Image("github"), url: "https://www.github.com/DarkAssassin23", width: 150, height: 150)
+                    .padding()
             }.padding()
             HStack
             {
-                Button(action: {
-                //opens up safari with facebook page
-                //sets the url to acxiom then opens the safari application
-                //with acxioms page
-                if let url = URL(string: "https://www.facebook.com/people/Will-Jones/100000717498835")
-                {
-                    UIApplication.shared.open(url)
-                }
-
-                }){
-                Image("facebook")
-                    .renderingMode(.original) //makes image render correctly
-                    .resizable()
-                    .frame(width: 150, height: 150)
-                }.padding()
-
-                Button(action: {
-                   //opens up safari with instagram page
-                   //sets the url to acxiom then opens the safari application
-                   //with acxioms page
-                   if let url = URL(string: "https://www.instagram.com/dark_assassin2398/?hl=en")
-                   {
-                       UIApplication.shared.open(url)
-                   }
-
-                   }){
-                   Image("instagram")
-                       .renderingMode(.original) //makes image render correctly
-                       .resizable()
-                       .frame(width: 150, height: 150)
-                }.padding()
+                ButtonImage(image: Image("facebook"), url: "https://www.facebook.com/people/Will-Jones/100000717498835", width: 150, height: 150)
+                    .padding()
+                ButtonImage(image: Image("instagram"), url: "https://www.instagram.com/dark_assassin2398/?hl=en", width: 150, height: 150)
+                    .padding()
             }.padding()
         }
     }

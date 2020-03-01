@@ -20,6 +20,7 @@
 		437025AC23F1018500991558 /* LeadershipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437025AB23F1018500991558 /* LeadershipView.swift */; };
 		437025AE23F1019F00991558 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437025AD23F1019F00991558 /* ContactView.swift */; };
 		439DB0A32409F8D2006903D1 /* AppInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439DB0A22409F8D2006903D1 /* AppInfoView.swift */; };
+		43C69404240C3E4A0014A248 /* ButtonImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C69403240C3E4A0014A248 /* ButtonImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		437025AB23F1018500991558 /* LeadershipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadershipView.swift; sourceTree = "<group>"; };
 		437025AD23F1019F00991558 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 		439DB0A22409F8D2006903D1 /* AppInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppInfoView.swift; path = "Will Jones App/Models/AppInfoView.swift"; sourceTree = "<group>"; };
+		43C69403240C3E4A0014A248 /* ButtonImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				437025A923F1017200991558 /* ExperienceView.swift */,
 				437025AB23F1018500991558 /* LeadershipView.swift */,
 				437025AD23F1019F00991558 /* ContactView.swift */,
+				43C69403240C3E4A0014A248 /* ButtonImage.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4370258323F0F00C00991558 /* AppDelegate.swift in Sources */,
+				43C69404240C3E4A0014A248 /* ButtonImage.swift in Sources */,
 				437025A623F1010D00991558 /* EducationView.swift in Sources */,
 				4370258523F0F00C00991558 /* SceneDelegate.swift in Sources */,
 				437025AC23F1018500991558 /* LeadershipView.swift in Sources */,

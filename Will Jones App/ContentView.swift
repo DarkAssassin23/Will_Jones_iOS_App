@@ -18,9 +18,9 @@ struct ContentView: View {
                     .font(.largeTitle)
                     .fontWeight(.heavy)
                 Button(action: {
-                //opens up safari with the Dark Assassins Inc page
+                //opens up safari with the my page
                 //sets the url to acxiom then opens the safari application
-                //with acxioms page
+                //with my page
                 if let url = URL(string: "https://www.chiefwithcolorfulshoes.com")
                 {
                     UIApplication.shared.open(url)

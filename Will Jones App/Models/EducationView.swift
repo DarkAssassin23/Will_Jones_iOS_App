@@ -32,21 +32,7 @@ struct EducationView: View {
                             .foregroundColor(Color.gray)
                     }
                     Spacer()
-                    Button(action: {
-                        //opens up safari with UMW's page
-                        //sets the url to acxiom then opens the safari application
-                        //with acxioms page
-                        if let url = URL(string: "https://www.umw.edu")
-                        {
-                            UIApplication.shared.open(url)
-                        }
-                        
-                    }){
-                        Image("UMW")
-                        .renderingMode(.original) //makes image render correctly
-                        .resizable()
-                        .frame(width: 100, height: 100)
-                    }
+                    ButtonImage(image: Image("UMW"), url: "https://www.umw.edu", width: 100, height: 100)
                 }
                 
                
@@ -94,21 +80,7 @@ struct EducationView: View {
                             .foregroundColor(Color.gray)
                     }
                     Spacer()
-                    Button(action: {
-                        //opens up safari with SBHS page
-                        //sets the url to acxiom then opens the safari application
-                        //with acxioms page
-                        if let url = URL(string: "https://www.lcps.org/sbhs")
-                        {
-                            UIApplication.shared.open(url)
-                        }
-                        
-                    }){
-                        Image("sbhs")
-                        .renderingMode(.original) //makes image render correctly
-                        .resizable()
-                        .frame(width: 100, height: 100)
-                    }
+                    ButtonImage(image: Image("sbhs"), url: "https://www.lcps.org/sbhs", width: 100, height: 100)
                 }.offset(y:-175)
                 
                 
