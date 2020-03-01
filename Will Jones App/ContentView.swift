@@ -17,9 +17,18 @@ struct ContentView: View {
                 Text("Will Jones")
                     .font(.largeTitle)
                     .fontWeight(.heavy)
+                
+                //WebView implementation is a bit glitchy
+                //and doesn't work for all the links
+                //might try and get it to work later
+//                NavigationLink(destination: WebView(url: "https://www.chiefwithcolorfulshoes.com"))
+//                {
+//                    CircleImage()
+//                }
+                
                 Button(action: {
                 //opens up safari with the my page
-                //sets the url to acxiom then opens the safari application
+                //sets the url to my then opens the safari application
                 //with my page
                 if let url = URL(string: "https://www.chiefwithcolorfulshoes.com")
                 {

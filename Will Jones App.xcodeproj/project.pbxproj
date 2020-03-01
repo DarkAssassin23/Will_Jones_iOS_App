@@ -19,6 +19,7 @@
 		437025AA23F1017200991558 /* ExperienceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437025A923F1017200991558 /* ExperienceView.swift */; };
 		437025AC23F1018500991558 /* LeadershipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437025AB23F1018500991558 /* LeadershipView.swift */; };
 		437025AE23F1019F00991558 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437025AD23F1019F00991558 /* ContactView.swift */; };
+		437F54A8240C5D3400AE9B94 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F54A7240C5D3400AE9B94 /* WebView.swift */; };
 		439DB0A32409F8D2006903D1 /* AppInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439DB0A22409F8D2006903D1 /* AppInfoView.swift */; };
 		43C69404240C3E4A0014A248 /* ButtonImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C69403240C3E4A0014A248 /* ButtonImage.swift */; };
 /* End PBXBuildFile section */
@@ -38,6 +39,7 @@
 		437025A923F1017200991558 /* ExperienceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ExperienceView.swift; sourceTree = "<group>"; usesTabs = 0; };
 		437025AB23F1018500991558 /* LeadershipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadershipView.swift; sourceTree = "<group>"; };
 		437025AD23F1019F00991558 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		437F54A7240C5D3400AE9B94 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		439DB0A22409F8D2006903D1 /* AppInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoView.swift; sourceTree = "<group>"; };
 		43C69403240C3E4A0014A248 /* ButtonImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,6 +76,7 @@
 			children = (
 				437025A223F0FED700991558 /* Models */,
 				4370258223F0F00C00991558 /* AppDelegate.swift */,
+				437F54A7240C5D3400AE9B94 /* WebView.swift */,
 				4370258423F0F00C00991558 /* SceneDelegate.swift */,
 				4370258623F0F00C00991558 /* ContentView.swift */,
 				4370258823F0F00D00991558 /* Assets.xcassets */,
@@ -187,6 +190,7 @@
 				437025AE23F1019F00991558 /* ContactView.swift in Sources */,
 				4370258723F0F00C00991558 /* ContentView.swift in Sources */,
 				437025A723F1010D00991558 /* AboutView.swift in Sources */,
+				437F54A8240C5D3400AE9B94 /* WebView.swift in Sources */,
 				437025AA23F1017200991558 /* ExperienceView.swift in Sources */,
 				437025A823F1010D00991558 /* CircleImage.swift in Sources */,
 			);
