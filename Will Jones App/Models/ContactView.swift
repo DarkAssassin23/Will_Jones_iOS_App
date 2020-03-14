@@ -19,7 +19,19 @@ struct ContactView: View {
             .offset(y:-80)
             HStack
             {
-                ButtonImage(image: Image("linkedin"), url: "https://www.linkedin.com/in/will-j-64b747b5?trk=org-employees_mini-profile_cta", width: 150, height: 150)
+                Button(action: {
+                    //opens up my page in the linkedin app
+                    if let url = URL(string: "https://www.linkedin.com/in/will-j-64b747b5?trk=org-employees_mini-profile_cta")
+                    {
+                        UIApplication.shared.open(url)
+                    }
+
+                }){
+                    Image("linkedin")
+                    .renderingMode(.original) //makes image render correctly
+                    .resizable()
+                        .frame(width: 150, height: 150)
+                }
                     .padding()
 
                 ButtonImage(image: Image("github"), url: "https://www.github.com/DarkAssassin23", width: 150, height: 150)
@@ -27,9 +39,33 @@ struct ContactView: View {
             }.padding()
             HStack
             {
-                ButtonImage(image: Image("facebook"), url: "https://www.facebook.com/people/Will-Jones/100000717498835", width: 150, height: 150)
+                Button(action: {
+                    //opens up my facebook page in the facebook app
+                    if let url = URL(string: "fb://profile?username=WillJones2389")
+                    {
+                        UIApplication.shared.open(url)
+                    }
+
+                }){
+                    Image("facebook")
+                    .renderingMode(.original) //makes image render correctly
+                    .resizable()
+                        .frame(width: 150, height: 150)
+                }
                     .padding()
-                ButtonImage(image: Image("instagram"), url: "https://www.instagram.com/dark_assassin2398/?hl=en", width: 150, height: 150)
+                Button(action: {
+                    //opens up my page in the instagram app
+                    if let url = URL(string: "https://www.instagram.com/dark_assassin2398/?hl=en")
+                    {
+                        UIApplication.shared.open(url)
+                    }
+
+                }){
+                    Image("instagram")
+                    .renderingMode(.original) //makes image render correctly
+                    .resizable()
+                        .frame(width: 150, height: 150)
+                }
                     .padding()
             }.padding()
         }

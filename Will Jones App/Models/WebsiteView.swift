@@ -1,0 +1,25 @@
+//
+//  WebsiteView.swift
+//  Will Jones App
+//
+//  Created by Will  Jones on 3/13/20.
+//  Copyright © 2020 Will Jones. All rights reserved.
+//
+
+import SwiftUI
+
+struct WebsiteView: View
+{
+    var website: String
+    var body: some View
+    {
+        WebView(url: website)
+            .offset(y:-50)
+    }
+}
+
+struct WebsiteView_Previews: PreviewProvider {
+    static var previews: some View {
+        WebsiteView(website: "https://www.apple.com")
+    }
+}

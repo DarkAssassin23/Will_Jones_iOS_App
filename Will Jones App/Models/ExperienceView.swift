@@ -58,7 +58,7 @@ struct ExperienceView: View {
                             .foregroundColor(Color.gray)
                     }
                     Spacer()
-                    ButtonImage(image: Image("PGS"), url: "https://www.pillarglobalsolutions.com", width: 150, height: 100)
+                    ButtonImage(image: Image("PGS"), url: "https://pillarglobalsolutions.com", width: 150, height: 100)
                     
                 }.padding(5)
                 Text("I worked with the CEO and my counterparts to redesign the company website, and migrated our GitLab repository to the AWS cloud")

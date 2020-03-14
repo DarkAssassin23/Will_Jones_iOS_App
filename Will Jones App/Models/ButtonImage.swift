@@ -42,31 +42,34 @@ struct ButtonImage: View {
     var height: CGFloat
     var body: some View
     {
-        //WebView is a bit glitchy and doesn't work for all the links
-        //might try and get it to work later
-//        NavigationLink(destination: WebView(url: self.url))
-//        {
-//            image
-//            .renderingMode(.original) //makes image render correctly
-//            .resizable()
-//                .frame(width: self.width, height: self.height)
-//        }
-        Button(action: {
-            //opens up safari with page provided in url
-            //sets the url to the provided url then opens the safari application
-            //with provided url's page
-
-            if let url = URL(string: self.url)
-            {
-                UIApplication.shared.open(url)
-            }
-
-        }){
+        
+        //Utilizes WebView to open websites inside the app natively
+        //rather than opening safari
+        NavigationLink(destination: WebsiteView(website: self.url))
+        {
             image
             .renderingMode(.original) //makes image render correctly
             .resizable()
                 .frame(width: self.width, height: self.height)
         }
+        
+        //code to open apps using safari
+//        Button(action: {
+//            //opens up safari with page provided in url
+//            //sets the url to the provided url then opens the safari application
+//            //with provided url's page
+//
+//            if let url = URL(string: self.url)
+//            {
+//                UIApplication.shared.open(url)
+//            }
+//
+//        }){
+//            image
+//            .renderingMode(.original) //makes image render correctly
+//            .resizable()
+//                .frame(width: self.width, height: self.height)
+//        }
     }
 }
 
