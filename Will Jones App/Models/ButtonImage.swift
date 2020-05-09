@@ -7,26 +7,6 @@
 //
 
 import SwiftUI
-//import SafariServices
-//import UIKit
-//class ViewControler: UIViewController, SFSafariViewControllerDelegate
-//{
-//    override func viewDidLoad()
-//    {
-//        super.viewDidLoad()
-//    }
-//    @IBAction func openURL(url: String)
-//    {
-//        guard let url = URL(string: url) else{return}
-//        let safariVC = SFSafariViewController(url: url)
-//        present(safariVC, animated: true)
-//        safariVC.delegate = self
-//    }
-//    func safariViewControllerDidFinish(_ controller: SFSafariViewController) {
-//        controller.dismiss(animated: true, completion: nil)
-//    }
-//}
-
 /*
  *Class that creates a button image with a clickable url
  *takes in 4 variables
@@ -40,36 +20,21 @@ struct ButtonImage: View {
     var url: String
     var width: CGFloat
     var height: CGFloat
+    @State private var showWebPage:Bool = false
     var body: some View
     {
         
         //Utilizes WebView to open websites inside the app natively
         //rather than opening safari
-        NavigationLink(destination: WebsiteView(website: self.url))
+        Button(action: {
+            self.showWebPage.toggle()
+        })
         {
             image
             .renderingMode(.original) //makes image render correctly
             .resizable()
                 .frame(width: self.width, height: self.height)
-        }
-        
-        //code to open apps using safari
-//        Button(action: {
-//            //opens up safari with page provided in url
-//            //sets the url to the provided url then opens the safari application
-//            //with provided url's page
-//
-//            if let url = URL(string: self.url)
-//            {
-//                UIApplication.shared.open(url)
-//            }
-//
-//        }){
-//            image
-//            .renderingMode(.original) //makes image render correctly
-//            .resizable()
-//                .frame(width: self.width, height: self.height)
-//        }
+        }.sheet(isPresented: $showWebPage, content: {WebsiteView(website: self.url)})
     }
 }
 

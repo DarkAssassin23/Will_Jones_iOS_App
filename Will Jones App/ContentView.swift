@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showWebPage:Bool = false
     var body: some View {
         NavigationView
         {
@@ -18,25 +19,14 @@ struct ContentView: View {
                     .font(.largeTitle)
                     .fontWeight(.heavy)
                 
-                //WebView implementation is a bit glitchy
-                //and doesn't work for all the links
-                //might try and get it to work later
-                NavigationLink(destination: WebsiteView(website: "https://www.chiefwithcolorfulshoes.com"))
+                //Opens my website in a popup
+                Button(action: {
+                    self.showWebPage.toggle()
+                })
                 {
                     CircleImage()
-                }
-//                Button(action: {
-//                //opens up safari with the my page
-//                //sets the url to my then opens the safari application
-//                //with my page
-//                if let url = URL(string: "https://www.chiefwithcolorfulshoes.com")
-//                {
-//                    UIApplication.shared.open(url)
-//                }
-//
-//                }){
-//                    CircleImage()
-//                }
+                }.sheet(isPresented: $showWebPage, content: {WebsiteView(website: "https://www.chiefwithcolorfulshoes.com")})
+
                 NavigationLink(destination: AboutView())
                 {
                     Text("About")

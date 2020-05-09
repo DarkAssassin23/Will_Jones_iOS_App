@@ -55,14 +55,14 @@ struct EducationView: View {
                     Text("Overall GPA:")
                         .fontWeight(.bold)
                     Spacer()
-                    Text("3.76")
+                    Text("3.77")
                 }
                 HStack
                 {
                     Text("Major GPA:")
                         .fontWeight(.bold)
                     Spacer()
-                    Text("3.94")
+                    Text("3.93")
                 }
                 Spacer()
                 HStack()
