@@ -25,7 +25,7 @@ struct EducationView: View {
                             .font(.title)
                         Text("Washington")
                             .font(.title)
-                        Text("Bachelor of Science")
+                        Text("Bachelor of Science - Summa Cum Laude")
                             .fontWeight(.bold)
                             .foregroundColor(Color.gray)
                         Text("August 2016 - May 2020")
