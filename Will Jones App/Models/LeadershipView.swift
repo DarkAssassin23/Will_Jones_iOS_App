@@ -47,7 +47,7 @@ struct LeadershipView: View {
                         }.padding(6)
                     }
                     Spacer()
-                    ButtonImage(image:  Image("bsa"), url: "https://www.scouting.org", width: 150, height: 150)
+                    ButtonImage(image:  Image("bsa"), url: "https://scouting.org", width: 150, height: 150)
                 }
             }.padding(5)
             Spacer()

@@ -25,7 +25,7 @@ struct ContentView: View {
                 })
                 {
                     CircleImage()
-                }.sheet(isPresented: $showWebPage, content: {WebsiteView(website: "https://www.chiefwithcolorfulshoes.com")})
+                }.sheet(isPresented: $showWebPage, content: {WebsiteView(website: "https://chiefwithcolorfulshoes.com")})
 
                 NavigationLink(destination: AboutView())
                 {

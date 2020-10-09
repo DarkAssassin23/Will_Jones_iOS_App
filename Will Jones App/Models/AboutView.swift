@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct AboutView: View {
-    var about = "Hello! My name is Will Jones and I am an Eagle Scout in the Boy Scouts of America, and also a Vigil Honor member in the Order of the Arrow. I am a decorated ceremonialist in the Order of the Arrow having won honors on the Lodge, Section, and National levels.\n\nAside from scouts, I am a student at the University of Mary Washington, and studying to become a Computer Science Major, with a minor in Cybersecurity. Outside of school and scouts I play the guitar (electric, acoustic, and classical).\n\nI also am a lover of the outdoors whether that is going hiking, camping, canoeing, kayaking or any other outdoor realated activity.\n\nI also am a big sports enthusiast. I mostly play basketball, however, I also play others as well for recreation and fun."
+    var about = "Hello! My name is Will Jones and I am an Eagle Scout in the Boy Scouts of America, and also a Vigil Honor member in the Order of the Arrow. I am a decorated ceremonialist in the Order of the Arrow having won honors on the Lodge, Section, and National levels.\n\nI also graduated Summa Cum Laude from University of Mary Washington with a Bachelor of Science in Computer Science, with a minor in Cybersecurity, in May 2020.\n\nIn my free time I love being outdoors, whether that is going hiking, camping, canoeing, kayaking, biking or any other outdoor realated activity. Other things I enjoy doing in my free time include: playing the guitar (electric, acoustic, and classical), playing video games, and sports. I mostly play basketball; however, I also play other sports as well for recreation and fun."
     var body: some View {
         VStack
         {
