@@ -24,13 +24,13 @@ struct AppInfoView: View {
                 Text("All rights reserved.")
                     .font(.headline)
                     .fontWeight(.bold)
-            }.offset(y:-150)
+            }//.offset(y:-150)
             ButtonImage(image: Image("DAIlogo2"), url: "https://darkassassinsinc.com", width: 350, height: 250)
             
-            Text("Version 1.3")
+            Text("Version 1.3.1")
                 .font(.headline)
                 .fontWeight(.bold)
-                .offset(y:150)
+                //.offset(y:150)
             
         }
         
