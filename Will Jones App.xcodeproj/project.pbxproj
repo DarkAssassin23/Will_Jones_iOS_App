@@ -341,7 +341,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2.2;
+				MARKETING_VERSION = 1.3.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "Will-Jones.Will-Jones-App";
 				PRODUCT_NAME = "Will Jones";
 				SWIFT_VERSION = 5.0;
@@ -362,7 +362,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2.2;
+				MARKETING_VERSION = 1.3.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "Will-Jones.Will-Jones-App";
 				PRODUCT_NAME = "Will Jones";
 				SWIFT_VERSION = 5.0;

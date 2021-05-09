@@ -38,7 +38,7 @@ struct ExperienceView: View {
                         ButtonImage(image: Image("DoN"), url: "https://www.navy.mil", width: 150, height: 125)
 
                     }.padding(5)
-                    Text("Developing navigation tools for weapon systems in support of combat systems simulations")
+                    Text("Worked on developing navigation tools for weapon systems in support of combat systems simulations. Designing, prototyping, and developing a black box to receive network connections from testbeds and provide them with various types of requested simulation data.")
                         .font(.footnote)
                         .padding(5)
                 }
