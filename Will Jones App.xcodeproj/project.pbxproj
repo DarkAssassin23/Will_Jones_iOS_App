@@ -21,6 +21,7 @@
 		437025AE23F1019F00991558 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437025AD23F1019F00991558 /* ContactView.swift */; };
 		437F54A8240C5D3400AE9B94 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F54A7240C5D3400AE9B94 /* WebView.swift */; };
 		439DB0A32409F8D2006903D1 /* AppInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439DB0A22409F8D2006903D1 /* AppInfoView.swift */; };
+		43BA3AE528A6D108009DC517 /* ButtonText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BA3AE428A6D108009DC517 /* ButtonText.swift */; };
 		43C69404240C3E4A0014A248 /* ButtonImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C69403240C3E4A0014A248 /* ButtonImage.swift */; };
 		43D6264A241C53DC00D094DA /* WebsiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D62649241C53DC00D094DA /* WebsiteView.swift */; };
 /* End PBXBuildFile section */
@@ -42,6 +43,7 @@
 		437025AD23F1019F00991558 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 		437F54A7240C5D3400AE9B94 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		439DB0A22409F8D2006903D1 /* AppInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoView.swift; sourceTree = "<group>"; };
+		43BA3AE428A6D108009DC517 /* ButtonText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonText.swift; sourceTree = "<group>"; };
 		43C69403240C3E4A0014A248 /* ButtonImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonImage.swift; sourceTree = "<group>"; };
 		43D62649241C53DC00D094DA /* WebsiteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,6 +111,7 @@
 				437025AD23F1019F00991558 /* ContactView.swift */,
 				43C69403240C3E4A0014A248 /* ButtonImage.swift */,
 				43D62649241C53DC00D094DA /* WebsiteView.swift */,
+				43BA3AE428A6D108009DC517 /* ButtonText.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -140,7 +143,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1340;
 				ORGANIZATIONNAME = "Will Jones";
 				TargetAttributes = {
 					4370257E23F0F00C00991558 = {
@@ -194,6 +197,7 @@
 				437025AE23F1019F00991558 /* ContactView.swift in Sources */,
 				4370258723F0F00C00991558 /* ContentView.swift in Sources */,
 				437025A723F1010D00991558 /* AboutView.swift in Sources */,
+				43BA3AE528A6D108009DC517 /* ButtonText.swift in Sources */,
 				437F54A8240C5D3400AE9B94 /* WebView.swift in Sources */,
 				437025AA23F1017200991558 /* ExperienceView.swift in Sources */,
 				437025A823F1010D00991558 /* CircleImage.swift in Sources */,
@@ -240,6 +244,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -300,6 +305,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -341,7 +347,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3.2;
+				MARKETING_VERSION = 1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "Will-Jones.Will-Jones-App";
 				PRODUCT_NAME = "Will Jones";
 				SWIFT_VERSION = 5.0;
@@ -362,7 +368,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3.2;
+				MARKETING_VERSION = 1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "Will-Jones.Will-Jones-App";
 				PRODUCT_NAME = "Will Jones";
 				SWIFT_VERSION = 5.0;

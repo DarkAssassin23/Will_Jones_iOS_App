@@ -10,8 +10,6 @@ import Foundation
 import SwiftUI
 import WebKit
 
-//current implementation is a little glitch and doesn't work
-//like planned. Sidelining this for now
 struct WebView: UIViewRepresentable
 {
     var url: String
