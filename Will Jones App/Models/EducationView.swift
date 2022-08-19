@@ -10,8 +10,8 @@ import SwiftUI
 
 struct EducationView: View {
     var body: some View {
-//        ScrollView
-//        {
+        ScrollView
+        {
             VStack
             {
                 Text("Education")
@@ -126,7 +126,7 @@ struct EducationView: View {
                 }.padding()
 
             }
-        //}
+        }
     }
 }
 
