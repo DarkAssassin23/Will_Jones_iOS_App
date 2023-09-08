@@ -10,6 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var showWebPage:Bool = false
+    @State private var showBlog:Bool = false
     var body: some View {
         NavigationView
         {
@@ -43,6 +44,12 @@ struct ContentView: View {
                 {
                     Text("Leadership")
                 }.padding()
+                Button(action: {
+                    self.showBlog.toggle()
+                })
+                {
+                    Text("Blog")
+                }.sheet(isPresented: $showBlog, content: {WebsiteView(website: "https://chiefwithcolorfulshoes.com/blog/")})
                 NavigationLink(destination: ContactView())
                 {
                     Text("Contact")
@@ -51,7 +58,7 @@ struct ContentView: View {
                 {
                     Text("ⓘ")
                 }.padding()
-            }.offset(y:-50)
+            }//.offset(y:-50)
         }.navigationBarTitle(Text("Back"))
     }
 }
