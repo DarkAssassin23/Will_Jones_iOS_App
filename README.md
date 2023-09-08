@@ -1,6 +1,6 @@
 # Will Jones iOS App
 **Version:** 1.5 <br />
-**Published Date:** 9/8/2022
+**Published Date:** 9/8/2023
 
 About
 ------------------
