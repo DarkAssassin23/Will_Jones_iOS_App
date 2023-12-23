@@ -24,7 +24,7 @@ struct AppInfoView: View {
             }//.offset(y:-150)
             ButtonImage(image: Image("DAIlogo2"), url: "https://darkassassinsinc.com", width: 350, height: 250)
             
-            Text("Version 1.5")
+            Text("Version 1.6")
                 .font(.headline)
                 .fontWeight(.bold)
                 //.offset(y:150)

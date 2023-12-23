@@ -32,7 +32,7 @@ struct EducationView: View {
                                 Text("Master of Science")
                                     .fontWeight(.bold)
                                     .foregroundColor(Color.gray)
-                                Text("January 2021 - Present")
+                                Text("January 2021 - December 2023")
                                     .foregroundColor(Color.gray)
                             }
                             Spacer()
@@ -52,6 +52,13 @@ struct EducationView: View {
                                 .fontWeight(.bold)
                             Spacer()
                             Text("Cybersecurity")
+                        }
+                        HStack
+                        {
+                            Text("GPA:")
+                                .fontWeight(.bold)
+                            Spacer()
+                            Text("3.8")
                         }
                     }
                     Spacer()
