@@ -22,6 +22,33 @@ struct LeadershipView: View {
                 {
                     VStack(alignment: .leading)
                     {
+                        Text("US Navy - NSWCDD")
+                            .font(.headline)
+                            .fontWeight(.bold)
+                        VStack(alignment: .leading)
+                        {
+                            Text("• Project Manager")
+                                .font(.footnote)
+                            Text("• Technical Lead")
+                                .font(.footnote)
+                            //Apple logo bullets
+//                            Text(" Project Manager")
+//                                .font(.footnote)
+//                            Text(" Technical Lead")
+//                                .font(.footnote)
+                        }.padding(6)
+                    }
+                    Spacer()
+                    ButtonImage(image:  Image("DoN"), url: "https://www.navy.mil", width: 150, height: 150)
+                }
+            }.padding(5)
+            Spacer()
+            VStack
+            {
+                HStack
+                {
+                    VStack(alignment: .leading)
+                    {
                         Text("Boy Scouts of America")
                             .font(.headline)
                             .fontWeight(.bold)
@@ -85,7 +112,7 @@ struct LeadershipView: View {
                     ButtonImage(image: Image("oa"), url: "https://www.oa-bsa.org", width: 150, height: 150)
 
                 }.padding(5)
-                    .offset(y:-200)
+                Spacer()
             }
         }
     }
