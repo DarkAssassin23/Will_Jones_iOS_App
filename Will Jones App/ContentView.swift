@@ -50,6 +50,7 @@ struct ContentView: View {
                 {
                     Text("Blog")
                 }.sheet(isPresented: $showBlog, content: {WebsiteView(website: "https://chiefwithcolorfulshoes.com/blog/")})
+                    .padding()
                 NavigationLink(destination: ContactView())
                 {
                     Text("Contact")
