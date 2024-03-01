@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct EducationView: View {
+    private var paddingSize:CGFloat = 15
     var body: some View {
         ScrollView
         {
@@ -61,6 +62,7 @@ struct EducationView: View {
                             Text("3.8")
                         }
                     }
+                    .padding(paddingSize)
                     Spacer()
                     VStack
                     {
@@ -110,28 +112,31 @@ struct EducationView: View {
                             Text("3.93")
                         }
                     }
+                    .padding(paddingSize)
                     Spacer()
-                    HStack
+                    VStack
                     {
-                        VStack(alignment: .leading)
+                        HStack
                         {
-                            Text("Stone Bridge")
-                                .font(.title)
-                            Text("High School")
-                                .font(.title)
-                            Text("Advanced Studies Deploma")
-                                .fontWeight(.bold)
-                                .foregroundColor(Color.gray)
-                            Text("August 2016 - May 2020")
-                                .foregroundColor(Color.gray)
+                            VStack(alignment: .leading)
+                            {
+                                Text("Stone Bridge")
+                                    .font(.title)
+                                Text("High School")
+                                    .font(.title)
+                                Text("Advanced Studies Deploma")
+                                    .fontWeight(.bold)
+                                    .foregroundColor(Color.gray)
+                                Text("August 2016 - May 2020")
+                                    .foregroundColor(Color.gray)
+                            }
+                            Spacer()
+                            ButtonImage(image: Image("sbhs"), url: "https://www.lcps.org/sbhs", width: 100, height: 100)
                         }
-                        Spacer()
-                        ButtonImage(image: Image("sbhs"), url: "https://www.lcps.org/sbhs", width: 100, height: 100)
                     }
-                    
-                    
-                }.padding()
-
+                    .padding(paddingSize)
+                    Spacer()
+                }
             }
         }
     }
