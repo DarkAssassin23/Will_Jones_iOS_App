@@ -3,7 +3,7 @@
 //  Will Jones App
 //
 //  Created by Will  Jones on 8/12/22.
-//  Copyright © 2022 Will Jones. All rights reserved.
+//  Copyright © 2022 Will Jones
 //
 
 import SwiftUI

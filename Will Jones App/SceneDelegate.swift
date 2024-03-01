@@ -3,7 +3,7 @@
 //  Will Jones App
 //
 //  Created by Will  Jones on 2/9/20.
-//  Copyright © 2020 Will Jones. All rights reserved.
+//  Copyright © 2020 Will Jones.
 //
 
 import UIKit
